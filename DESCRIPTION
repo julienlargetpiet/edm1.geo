@@ -1,9 +1,9 @@
 Package: edm1
-Title: Simplify Complex Data Manipulation
+Title: For manipulating geographical data
 Version: 2.0.0.0
 Authors@R: 
     person("Julien", "Larget-Piet", , "julien.larget-piet@dreamRs.fr", role = c("aut", "cre"))
-Description: Provides complex sorting algorythms. Provides date manipulation algorythms. In addition to providing handy functions to discretize variables, an SQL joins alternatives, a set of function to work with geographical coordinates, and other functions to work with text mining.
+Description: Provides a function to calculate the distance between geographical points and another function that classifies a set of points according to their distance to another set of points (landmark).
 License: GPL (==3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -11,5 +11,4 @@ RoxygenNote: 7.3.1
 Imports:
     stringr,
     stringi,
-    dplyr,
-    openxlsx
+    dplyr
